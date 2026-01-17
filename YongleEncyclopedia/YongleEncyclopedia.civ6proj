@@ -17,6 +17,7 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Dependency type="Mod" title="LOC_REPAIR_CUSTOM_GREATWORK_SLOTS" id="638e5e9d-32b5-449f-b6fa-61364044b1c6" min_version="1" />
 </Associations>]]></AssociationData>
     <AssemblyName>YongleEncyclopedia</AssemblyName>
     <RootNamespace>YongleEncyclopedia</RootNamespace>
