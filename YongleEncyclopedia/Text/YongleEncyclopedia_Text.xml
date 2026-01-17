@@ -1,37 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
   <BaseGameText>
-    <Row Tag="LOC_TRAIT_LEADER_WENYUANGE_NAME" Text="Wenyuan Pavilion" />
-    <Row Tag="LOC_TRAIT_LEADER_WENYUANGE_DESCRIPTION" Text="Yongle-exclusive Wenyuan Pavilion building and the Yongle Encyclopedia project." />
-
-    <Row Tag="LOC_BUILDING_WENYUANGE_NAME" Text="Wenyuan Pavilion" />
-    <Row Tag="LOC_BUILDING_WENYUANGE_DESCRIPTION" Text="Yongle-only replacement for the Library. +2 Science, +2 Citizen Slots, 1 Writing Great Work slot, +1 Great Scientist point and +1 Great Writer point per turn." />
-
-    <Row Tag="LOC_PROJECT_COMPILE_YONGLE_ENCYCLOPEDIA_NAME" Text="Compile the Yongle Encyclopedia" />
-    <Row Tag="LOC_PROJECT_COMPILE_YONGLE_ENCYCLOPEDIA_SHORT_NAME" Text="Yongle Encyclopedia" />
-    <Row Tag="LOC_PROJECT_COMPILE_YONGLE_ENCYCLOPEDIA_DESCRIPTION" Text="Requires Wenyuan Pavilion. Grants the Great Work 'Yongle Encyclopedia' and immediately provides Eureka for every technology. Can only be completed once per civilization." />
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_XIE_JIN_NAME" Text="Xie Jin" />
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_XIE_JIN_DESCRIPTION" Text="Renaissance Great Writer. Activating him creates the Great Work 'Yongle Encyclopedia'." />
 
     <Row Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_NAME" Text="Yongle Encyclopedia" />
-    <Row Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_QUOTE" Text="An imperial compendium to capture the origin of all things." />
+    <Row Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_QUOTE" Text="An imperial compendium to capture the origin of all things. Grants a Eureka for every technology when created." />
 
     <Row Tag="LOC_GREATWORK_YONGLE_FRAGMENT_NAME" Text="Yongle Encyclopedia Fragment" />
-    <Row Tag="LOC_GREATWORK_YONGLE_FRAGMENT_QUOTE" Text="Even a surviving page can spark inspiration." />
+    <Row Tag="LOC_GREATWORK_YONGLE_FRAGMENT_QUOTE" Text="Even a surviving page can spark inspiration, granting multiple Eurekas of the current era." />
   </BaseGameText>
   <LocalizedText>
-    <Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_WENYUANGE_NAME" Text="文渊阁" />
-    <Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_WENYUANGE_DESCRIPTION" Text="朱棣专属建筑文渊阁与永乐大典项目。" />
-
-    <Row Language="zh_Hans_CN" Tag="LOC_BUILDING_WENYUANGE_NAME" Text="文渊阁" />
-    <Row Language="zh_Hans_CN" Tag="LOC_BUILDING_WENYUANGE_DESCRIPTION" Text="朱棣专属，取代图书馆。提供+2科技值、+2公民槽位、1文学巨作槽位，每回合+1大科学家点数、+1大作家点数。" />
-
-    <Row Language="zh_Hans_CN" Tag="LOC_PROJECT_COMPILE_YONGLE_ENCYCLOPEDIA_NAME" Text="编纂《永乐大典》" />
-    <Row Language="zh_Hans_CN" Tag="LOC_PROJECT_COMPILE_YONGLE_ENCYCLOPEDIA_SHORT_NAME" Text="永乐大典" />
-    <Row Language="zh_Hans_CN" Tag="LOC_PROJECT_COMPILE_YONGLE_ENCYCLOPEDIA_DESCRIPTION" Text="需要文渊阁。完成后获得巨作《永乐大典》并立即获得所有科技的尤里卡。每个文明只能进行一次。" />
+    <Row Language="zh_Hans_CN" Tag="LOC_GREAT_PERSON_INDIVIDUAL_XIE_JIN_NAME" Text="解缙" />
+    <Row Language="zh_Hans_CN" Tag="LOC_GREAT_PERSON_INDIVIDUAL_XIE_JIN_DESCRIPTION" Text="文艺复兴时代大作家。激活后创建文学巨作《永乐大典》。" />
 
     <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_NAME" Text="《永乐大典》" />
-    <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_QUOTE" Text="钦定大典，纂辑万物起源。" />
+    <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_QUOTE" Text="钦定大典，纂辑万物起源，创作时获得所有科技的尤里卡。" />
 
     <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_FRAGMENT_NAME" Text="《永乐大典》残篇" />
-    <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_FRAGMENT_QUOTE" Text="残片亦可窥全豹，偶得灵光之启。" />
+    <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_FRAGMENT_QUOTE" Text="残片亦可窥全豹，偶得灵光之启，能带来多个当代科技的尤里卡。" />
   </LocalizedText>
 </GameInfo>

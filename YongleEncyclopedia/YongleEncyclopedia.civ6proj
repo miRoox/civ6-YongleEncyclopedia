@@ -20,7 +20,7 @@
 </Associations>]]></AssociationData>
     <AssemblyName>YongleEncyclopedia</AssemblyName>
     <RootNamespace>YongleEncyclopedia</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="GameData"><File>Gameplay\YongleEncyclopedia_Gameplay.sql</File></UpdateDatabase><UpdateText id="Text"><File>Languages/YongleEncyclopedia_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="YongleEncyclopedia_GameData"><File>Gameplay/YongleEncyclopedia_Gameplay.sql</File></UpdateDatabase><UpdateText id="YongleEncyclopedia_Text"><File>Text/YongleEncyclopedia_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
