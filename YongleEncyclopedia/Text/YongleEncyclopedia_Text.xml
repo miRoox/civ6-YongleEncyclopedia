@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
+  <BaseGameText>
+    <Row Tag="LOC_TRAIT_LEADER_WENYUANGE_NAME" Text="Wenyuan Pavilion" />
+    <Row Tag="LOC_TRAIT_LEADER_WENYUANGE_DESCRIPTION" Text="Yongle-exclusive Wenyuan Pavilion building and the Yongle Encyclopedia project." />
+
+    <Row Tag="LOC_BUILDING_WENYUANGE_NAME" Text="Wenyuan Pavilion" />
+    <Row Tag="LOC_BUILDING_WENYUANGE_DESCRIPTION" Text="Yongle-only replacement for the Library. +2 Science, +2 Citizen Slots, 1 Writing Great Work slot, +1 Great Scientist point and +1 Great Writer point per turn." />
+
+    <Row Tag="LOC_PROJECT_COMPILE_YONGLE_ENCYCLOPEDIA_NAME" Text="Compile the Yongle Encyclopedia" />
+    <Row Tag="LOC_PROJECT_COMPILE_YONGLE_ENCYCLOPEDIA_SHORT_NAME" Text="Yongle Encyclopedia" />
+    <Row Tag="LOC_PROJECT_COMPILE_YONGLE_ENCYCLOPEDIA_DESCRIPTION" Text="Requires Wenyuan Pavilion. Grants the Great Work 'Yongle Encyclopedia' and immediately provides Eureka for every technology. Can only be completed once per civilization." />
+
+    <Row Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_NAME" Text="Yongle Encyclopedia" />
+    <Row Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_QUOTE" Text="An imperial compendium to capture the origin of all things." />
+
+    <Row Tag="LOC_GREATWORK_YONGLE_FRAGMENT_NAME" Text="Yongle Encyclopedia Fragment" />
+    <Row Tag="LOC_GREATWORK_YONGLE_FRAGMENT_QUOTE" Text="Even a surviving page can spark inspiration." />
+  </BaseGameText>
   <LocalizedText>
     <Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_WENYUANGE_NAME" Text="文渊阁" />
     <Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_WENYUANGE_DESCRIPTION" Text="朱棣专属建筑文渊阁与永乐大典项目。" />
@@ -16,21 +33,5 @@
 
     <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_FRAGMENT_NAME" Text="《永乐大典》残篇" />
     <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_FRAGMENT_QUOTE" Text="残片亦可窥全豹，偶得灵光之启。" />
-
-    <Row Language="en_US" Tag="LOC_TRAIT_LEADER_WENYUANGE_NAME" Text="Wenyuan Pavilion" />
-    <Row Language="en_US" Tag="LOC_TRAIT_LEADER_WENYUANGE_DESCRIPTION" Text="Yongle-exclusive Wenyuan Pavilion building and the Yongle Encyclopedia project." />
-
-    <Row Language="en_US" Tag="LOC_BUILDING_WENYUANGE_NAME" Text="Wenyuan Pavilion" />
-    <Row Language="en_US" Tag="LOC_BUILDING_WENYUANGE_DESCRIPTION" Text="Yongle-only replacement for the Library. +2 Science, +2 Citizen Slots, 1 Writing Great Work slot, +1 Great Scientist point and +1 Great Writer point per turn." />
-
-    <Row Language="en_US" Tag="LOC_PROJECT_COMPILE_YONGLE_ENCYCLOPEDIA_NAME" Text="Compile the Yongle Encyclopedia" />
-    <Row Language="en_US" Tag="LOC_PROJECT_COMPILE_YONGLE_ENCYCLOPEDIA_SHORT_NAME" Text="Yongle Encyclopedia" />
-    <Row Language="en_US" Tag="LOC_PROJECT_COMPILE_YONGLE_ENCYCLOPEDIA_DESCRIPTION" Text="Requires Wenyuan Pavilion. Grants the Great Work 'Yongle Encyclopedia' and immediately provides Eureka for every technology. Can only be completed once per civilization." />
-
-    <Row Language="en_US" Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_NAME" Text="Yongle Encyclopedia" />
-    <Row Language="en_US" Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_QUOTE" Text="An imperial compendium to capture the origin of all things." />
-
-    <Row Language="en_US" Tag="LOC_GREATWORK_YONGLE_FRAGMENT_NAME" Text="Yongle Encyclopedia Fragment" />
-    <Row Language="en_US" Tag="LOC_GREATWORK_YONGLE_FRAGMENT_QUOTE" Text="Even a surviving page can spark inspiration." />
   </LocalizedText>
 </GameInfo>
