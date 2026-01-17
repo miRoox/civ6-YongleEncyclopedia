@@ -9,8 +9,7 @@
     <Teaser>Yongle Encyclopedia</Teaser>
     <Description>The Origin of Everything: Yongle Encyclopedia</Description>
     <Authors>miRoox</Authors>
-    <SpecialThanks>
-    </SpecialThanks>
+    <SpecialThanks>GitHub Copilot</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -21,12 +20,23 @@
 </Associations>]]></AssociationData>
     <AssemblyName>YongleEncyclopedia</AssemblyName>
     <RootNamespace>YongleEncyclopedia</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="GameData"><File>Gameplay\YongleEncyclopedia_Gameplay.sql</File></UpdateDatabase><UpdateText id="Text"><File>Languages/YongleEncyclopedia_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Gameplay\YongleEncyclopedia_Gameplay.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\YongleEncyclopedia_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
     <None Include="YongleEncyclopedia.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Gameplay" />
+    <Folder Include="Text" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
