@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <!-- Reuse shipped atlases at every supported size; no loose texture assets. -->
+  <IconDefinitions>
+    <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_XIE_JIN" Atlas="ICON_ATLAS_GREAT_PERSON_INDIVIDUAL" Index="1" />
+    <Row Name="ICON_GREATWORK_YONGLE_ENCYCLOPEDIA" Atlas="ICON_ATLAS_GREATWORKS" Index="0" />
+    <Row Name="ICON_GREATWORK_ARTIFACT_36433025" Atlas="ICON_ATLAS_GREATWORKS_2" Index="36" />
+  </IconDefinitions>
+</GameInfo>

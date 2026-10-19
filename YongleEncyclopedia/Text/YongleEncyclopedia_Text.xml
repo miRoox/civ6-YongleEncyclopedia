@@ -2,22 +2,24 @@
 <GameInfo>
   <BaseGameText>
     <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_XIE_JIN_NAME" Text="Xie Jin" />
-    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_XIE_JIN_DESCRIPTION" Text="Renaissance Great Writer. Activating him creates the Great Work 'Yongle Encyclopedia'." />
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_XIE_JIN_DESCRIPTION" Text="Creates one Great Work of Writing: Yongle Encyclopedia. On first acquisition, triggers every available technology Eureka. Provides +10 [ICON_Culture] Culture, +500 [ICON_Science] Science and +10 [ICON_Tourism] Tourism per turn." />
+    <Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_XIE_JIN_CHAPTER_HISTORY_PARA_1" Text="A Ming dynasty scholar and chief compiler of the Yongle Encyclopedia. In this mod, his encyclopedia is the origin of everything: a single Great Work of Writing with extraordinary scientific value." />
 
     <Row Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_NAME" Text="Yongle Encyclopedia" />
-    <Row Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_QUOTE" Text="An imperial compendium to capture the origin of all things. Grants a Eureka for every technology when created." />
+    <Row Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_QUOTE" Text="The origin of everything, gathered in one compendium.[NEWLINE]On first acquisition by each civilization, triggers every available technology Eureka.[NEWLINE]+10 [ICON_Culture] Culture, +500 [ICON_Science] Science, +10 [ICON_Tourism] Tourism per turn." />
 
     <Row Tag="LOC_GREATWORK_YONGLE_FRAGMENT_1_NAME" Text="Yongle Encyclopedia Fragment" />
-    <Row Tag="LOC_GREATWORK_YONGLE_FRAGMENT_1_QUOTE" Text="Even a surviving page can spark inspiration, granting multiple Eurekas of the current era." />
+    <Row Tag="LOC_GREATWORK_YONGLE_FRAGMENT_1_QUOTE" Text="Even a surviving page can spark inspiration.[NEWLINE]On first acquisition by each civilization, triggers up to 5 different, unearned technology Eurekas from the current era.[NEWLINE]+50 [ICON_Science] Science, +1 [ICON_Culture] Culture, +3 [ICON_Faith] Faith, +2 [ICON_Tourism] Tourism per turn." />
   </BaseGameText>
   <LocalizedText>
     <Row Language="zh_Hans_CN" Tag="LOC_GREAT_PERSON_INDIVIDUAL_XIE_JIN_NAME" Text="解缙" />
-    <Row Language="zh_Hans_CN" Tag="LOC_GREAT_PERSON_INDIVIDUAL_XIE_JIN_DESCRIPTION" Text="文艺复兴时代大作家。激活后创建文学巨作《永乐大典》。" />
+    <Row Language="zh_Hans_CN" Tag="LOC_GREAT_PERSON_INDIVIDUAL_XIE_JIN_DESCRIPTION" Text="创建1部文学巨作《永乐大典》。首次获取时触发全部可用科技的尤里卡。每回合+10 [ICON_Culture]文化值、+500 [ICON_Science]科技值、+10 [ICON_Tourism]旅游业绩。" />
+    <Row Language="zh_Hans_CN" Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_XIE_JIN_CHAPTER_HISTORY_PARA_1" Text="明代学者、《永乐大典》的主要编纂者之一。本模组以“万物起源：永乐大典”为梗，让他创作一部具有非凡科技产出的文学巨作。" />
 
     <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_NAME" Text="《永乐大典》" />
-    <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_QUOTE" Text="钦定大典，纂辑万物起源，创作时获得所有科技的尤里卡。" />
+    <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_ENCYCLOPEDIA_QUOTE" Text="钦定大典，纂辑万物起源。[NEWLINE]每个文明首次获取此巨作时，触发全部可用科技的尤里卡。[NEWLINE]每回合+10 [ICON_Culture]文化值、+500 [ICON_Science]科技值、+10 [ICON_Tourism]旅游业绩。" />
 
     <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_FRAGMENT_1_NAME" Text="《永乐大典》残篇" />
-    <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_FRAGMENT_1_QUOTE" Text="残片亦可窥全豹，偶得灵光之启，能带来多个当代科技的尤里卡。" />
+    <Row Language="zh_Hans_CN" Tag="LOC_GREATWORK_YONGLE_FRAGMENT_1_QUOTE" Text="残篇亦可窥全豹，偶得灵光之启。[NEWLINE]每个文明首次获取此文物时，随机触发当前时代最多5项不同且尚未获得的科技尤里卡。[NEWLINE]每回合+50 [ICON_Science]科技值、+1 [ICON_Culture]文化值、+3 [ICON_Faith]信仰值、+2 [ICON_Tourism]旅游业绩。" />
   </LocalizedText>
 </GameInfo>

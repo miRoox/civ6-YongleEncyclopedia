@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <Name>Yongle Encyclopedia</Name>
     <Guid>364a33d5-907e-4f61-b861-be88c9c4dc76</Guid>
     <ProjectGuid>349c034c-ae25-411b-8916-233cba5c4887</ProjectGuid>
-    <ModVersion>1</ModVersion>
+    <ModVersion>2</ModVersion>
     <Teaser>Yongle Encyclopedia</Teaser>
     <Description>The Origin of Everything: Yongle Encyclopedia</Description>
     <Authors>miRoox</Authors>
@@ -15,13 +15,21 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <AssociationData><![CDATA[<Associations>
-  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
-  <Dependency type="Mod" title="LOC_REPAIR_CUSTOM_GREATWORK_SLOTS" id="638e5e9d-32b5-449f-b6fa-61364044b1c6" min_version="1" />
-</Associations>]]></AssociationData>
+    <AssociationData><![CDATA[<Associations />]]></AssociationData>
     <AssemblyName>YongleEncyclopedia</AssemblyName>
     <RootNamespace>YongleEncyclopedia</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="YongleEncyclopedia_GameData"><File>Gameplay/YongleEncyclopedia_Gameplay.sql</File></UpdateDatabase><UpdateText id="YongleEncyclopedia_Text"><File>Text/YongleEncyclopedia_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions>
+  <UpdateDatabase id="YongleEncyclopedia_GameData">
+    <Properties><LoadOrder>100</LoadOrder></Properties>
+    <File>Gameplay/YongleEncyclopedia_Gameplay.sql</File>
+  </UpdateDatabase>
+  <UpdateText id="YongleEncyclopedia_Text"><File>Text/YongleEncyclopedia_Text.xml</File></UpdateText>
+  <UpdateIcons id="YongleEncyclopedia_Icons"><File>Icons/YongleEncyclopedia_Icons.xml</File></UpdateIcons>
+  <UpdateArt id="YongleEncyclopedia_Art"><File>(Mod Art Dependency File)</File></UpdateArt>
+  <ImportFiles id="YongleEncyclopedia_UIFiles"><File>UI/YongleEncyclopedia_UI.lua</File></ImportFiles>
+  <AddUserInterfaces id="YongleEncyclopedia_UI"><Properties><Context>InGame</Context></Properties><File>UI/YongleEncyclopedia_UI.xml</File></AddUserInterfaces>
+  <AddGameplayScripts id="YongleEncyclopedia_Scripts"><File>Scripts/YongleEncyclopedia.lua</File></AddGameplayScripts>
+</InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -33,11 +41,20 @@
     <Content Include="Text\YongleEncyclopedia_Text.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Icons\YongleEncyclopedia_Icons.xml"><SubType>Content</SubType></Content>
+    <Content Include="Scripts\YongleEncyclopedia.lua"><SubType>Content</SubType></Content>
+    <Content Include="ArtDefs\Yongle_GreatPeople.artdef"><SubType>Content</SubType></Content>
+    <Content Include="UI\YongleEncyclopedia_UI.lua"><SubType>Content</SubType></Content>
+    <Content Include="UI\YongleEncyclopedia_UI.xml"><SubType>Content</SubType></Content>
     <None Include="YongleEncyclopedia.Art.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Gameplay" />
     <Folder Include="Text" />
+    <Folder Include="Icons" />
+    <Folder Include="Scripts" />
+    <Folder Include="ArtDefs" />
+    <Folder Include="UI" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
